@@ -1,0 +1,45 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "获取指定日期的城市天气信息",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "要查询的城市名称"
+                    },
+                    "date": {
+                        "type": "string",
+                        "description": "要查询的日期"
+                    }
+                },
+                "required": [
+                    "city",
+                    "date"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "文生图-可灵版-MCP",
+            "description": "用户输入 （示例：落霞与孤鹜齐飞，秋水共长天一色）",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "type": "string",
+                        "description": "用户输入 （示例：落霞与孤鹜齐飞，秋水共长天一色）"
+                    }
+                },
+                "required": [
+                    "description"
+                ]
+            }
+        }
+    }
+]
