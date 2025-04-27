@@ -1,4 +1,4 @@
-# MCP Project (Model Control Protocol)
+# MCP Project (Model Context Protocol)
 
 MCP Project 是一个基于 Model Control Protocol 的智能助手系统，支持多种大语言模型的接入和工具调用功能。
 
